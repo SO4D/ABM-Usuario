@@ -1,0 +1,31 @@
+.articulo-abm-container {
+    display: flex;
+  }
+  
+  .articulo-form-container {
+    margin-right: 20px;
+  }
+  
+  .button-group {
+    margin-top: 10px;
+  }
+  
+  .articulo-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .articulo-list-container li {
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .articulo-list-container li:hover {
+    background-color: #eee;
+  }
+  
+  .articulo-list-container li.selected {
+    background-color: #aaf;
+  }
+  
